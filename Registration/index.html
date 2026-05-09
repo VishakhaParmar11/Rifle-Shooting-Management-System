@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Registration</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="img/abc.jpg" rel="">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multistep form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <body>
+        <div class="container">
+            <header>Signup Form</header>
+            <div class="progress-bar">
+               
+
+                <div class="step">
+                    <p>Details</p>
+                    <div class="bullet">
+                        <span>1</span>
+                    </div>
+                    <div class="check fas fa-check"></div>
+                </div>
+
+
+
+                <div class="step">
+                    <p>Contact</p>
+                    <div class="bullet">
+                        <span>2</span>
+                    </div>
+                    <div class="check fas fa-check"></div>
+                </div>
+
+                <div class="step">
+                    <p>Physical</p>
+                    <div class="bullet">
+                        <span>3</span>
+                    </div>
+                    <div class="check fas fa-check"></div>
+                </div>
+
+
+                <div class="step">
+                    <p>Criteria</p>
+                    <div class="bullet">
+                        <span>4</span>
+                    </div>
+                    <div class="check fas fa-check"></div>
+                </div>
+
+
+                <div class="step">
+                    <p>Password</p>
+                    <div class="bullet">
+                        <span>5</span>
+                    </div>
+                    <div class="check fas fa-check"></div>
+                </div>
+
+
+                <div class="step">
+                    <p>Payment</p>
+                    <div class="bullet">
+                        <span>6</span>
+                    </div>
+                    <div class="check fas fa-check"></div>
+                </div>
+            </div>
+
+
+
+
+            <div class="form-outer">
+                <form action="#">
+                   
+
+
+                    <div class="page slide-page">
+                        <div class="title">Basic Info:</div>
+                        <div class="field">
+                            <div class="label">Full Name</div>
+                            <input type="text" required />
+                        </div>
+                        <div class="field">
+                            <div class="label">Gender</div>
+                                <select required>
+                                <option hidden>Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Others</option>
+                            </select>
+                            
+                            
+                        </div>
+
+
+
+                        <div class="field">
+                            <div class="label">DOB</div>
+                            <input type="date" required />
+                        </div>
+
+                            <div class="field">
+                            <div class="label">File Uplad</div>
+                            <input type="file" required />
+                        </div>
+                        <div class="field">
+                            <button class="firstNext next">Next</button>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <div class="page">
+                        <div class="title">Contact Info:</div>
+                        <div class="field">
+                            <div class="label">Address</div>
+                            <input type="text" required />
+                        </div>
+                        <div class="field">
+                            <div class="label">Phone Number</div>
+                            <input type="Number" required />
+                        </div>
+                        <div class="field">
+                            <div class="label">Email</div>
+                            <input type="email" required />
+                        </div>
+                        
+                        <div class="field btns">
+                            <button class="prev-1 prev">Previous</button>
+                            <button class="next-1 next">Next</button>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="page">
+                                <div class="title">Physical Details</div>
+                                                
+                     <div class="field">
+                            <div class="label">Height</div>
+                            <input type="Number" required />
+                        </div>
+
+                        <div class="field">
+                            <div class="label">Weight</div>
+                            <input type="Number" required />
+                        </div>
+
+
+                        <div class="field">
+                            <div class="label">Age</div>
+                            <input type="Number" required />
+                        </div>
+
+
+                                                <div class="field btns">
+                            <button class="prev-2 prev">Previous</button>
+                            <button class="next-2 next">Next</button>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="page">
+                        <div class="title">Criteria Details</div>
+                        <div class="field">
+                            <div class="label">Gun Selection</div>
+                            <select required>
+                                <option hidden>Select Criteria</option>
+                                <option>Walther</option>
+                                <option>Air Pistol</option>
+                                <option>Short Gun</option>
+                                <option>Alpha Pistol</option>
+                                <option>Walther LG400</option>
+                            </select>
+                           
+                        </div>
+                        <div class="field">
+                            <div class="label">Hand Selection</div>
+                         <select required>
+                                <option hidden>Hand Criteria</option>
+                                <option>Righty</option>
+                                <option>Lefty</option>
+                            </select>
+                        </div>   
+                        <div class="field">
+                            <div class="label">Fees</div>
+                         <select required>
+                                <option hidden>--Fees--</option>
+                                <option>1 Month 5000</option>
+                                <option>3 Month 310000</option>
+                                <option>1 Year 1,15000</option>
+                            </select>
+                        </div>                       
+                         <div class="field btns">
+                            <button class="prev-3 prev">Previous</button>
+                            <button class="next-3 next">Next</button>
+                        </div>
+                    </div>
+
+                    <div class="page">
+                        <div class="title">Set Password</div>
+                       
+                        <div class="field">
+                            <div class="label">Password</div>
+                            <input type="password" required />
+                        </div>
+                         <div class="field">
+                            <div class="label">Confirm Password</div>
+                            <input type="password" required />
+                        </div>
+
+                        <div class="field btns">
+                            <button class="prev-4 prev">Previous</button>
+                            <button class="next-4 next">Next</button>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="page">
+                        <div class="title">Payment Details:</div>
+                        <div class="field">
+                            <div class="label">Card Holder Name:</div>
+                            <input type="text" required />
+                        </div>
+                        <div class="field">
+                            <div class="label">CVC</div>
+                            <input type="password" required />
+                        </div>
+                         <div class="field">
+                            <div class="label">Expierty Date:</div>
+                            <input type="password" required />
+                        </div>
+                         <div class="field" id="div_hide" style="display: none;">
+                            <div class="label">Enter OTP:</div>
+                            <input type="password" required />
+                        </div>
+                        <div class="field btns">
+                            <button class="prev-5 prev">Previous</button>
+                             <button class="prev-5 " onclick="otp();">Send OTP</button>&nbsp;
+                            <button class="submit">Submit</button>
+                        </div>
+                    </div>
+
+<script type="text/javascript">
+    
+    function otp(){
+      var div_hide=document.querySelector("#div_hide");
+     // element.classList.remove("mystyle");
+      div_hide.style="display:bloack;";
+    }
+</script>
+
+
+
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
