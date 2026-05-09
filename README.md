@@ -1,0 +1,1 @@
+A smart and efficient web-based system designed to manage rifle shooting activities digitally. The project helps in maintaining shooter details, match schedules, score records, and event management with accuracy and ease. It simplifies administrative tasks and improves overall management of shooting competitions and training activities.
